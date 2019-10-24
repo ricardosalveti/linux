@@ -85,11 +85,6 @@
 		};
 
 		dsi1: dsi@7e700000 {
-			compatible = "brcm,bcm2835-dsi1";
-			reg = <0x7e700000 0x8c>;
-			interrupts = <2 12>;
-			#address-cells = <1>;
-			#size-cells = <0>;
 			#clock-cells = <1>;
 			clocks = <&clocks BCM2835_PLLD_DSI1>,
 				 <&clocks BCM2835_CLOCK_DSI1E>,
