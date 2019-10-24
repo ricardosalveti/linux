@@ -84,10 +84,6 @@
 			status = "disabled";
 		};
 
-		dsi1: dsi@7e700000 {
-			status = "disabled";
-		};
-
 		firmwarekms: firmwarekms@7e600000 {
 			compatible = "raspberrypi,rpi-firmware-kms";
 			/* SMI interrupt reg */
