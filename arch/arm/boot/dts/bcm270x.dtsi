@@ -85,14 +85,6 @@
 		};
 
 		dsi1: dsi@7e700000 {
-			#clock-cells = <1>;
-			clocks = <&clocks BCM2835_PLLD_DSI1>,
-				 <&clocks BCM2835_CLOCK_DSI1E>,
-				 <&clocks BCM2835_CLOCK_DSI1P>;
-			clock-names = "phy", "escape", "pixel";
-			clock-output-names = "dsi1_byte",
-					     "dsi1_ddr2",
-					     "dsi1_ddr";
 			status = "disabled";
 		};
 
