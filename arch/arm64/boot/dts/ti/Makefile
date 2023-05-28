@@ -85,6 +85,9 @@ dtb-$(CONFIG_ARCH_K3) += k3-j784s4-evm-quad-port-eth-exp1.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-j784s4-evm-usxgmii-exp1-exp2.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-j784s4-evm-virt-mac-client.dtbo
 
+#jailhouse overlay
+dtb-$(CONFIG_ARCH_K3) += k3-am625-base-board-jailhouse.dtbo
+
 # FPDLink Sensors
 dtb-$(CONFIG_ARCH_K3) += k3-fpdlink-imx390-rcm-0-0.dtbo \
 			 k3-fpdlink-imx390-rcm-0-1.dtbo \
